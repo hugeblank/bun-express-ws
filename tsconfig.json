@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "module": "commonjs",
-    "moduleResolution": "Node",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "bundler",
     "outDir": "./dist",
     "allowJs": true,
-    "target": "es2015"
+    "types": ["bun-types"],
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+    "lib": ["esnext"]
   },
   "include": ["./**/*"]
 }

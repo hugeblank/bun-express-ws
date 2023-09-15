@@ -1,6 +1,6 @@
 import * as http from "http"
-import * as express from "express"
-import expressWs = require("../src/index")
+import express from "express"
+import expressWs from "../src/index"
 const app = express()
 const { app: wsApp, wsRoute } = expressWs({
   app,

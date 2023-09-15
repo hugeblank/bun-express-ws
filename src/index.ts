@@ -4,13 +4,13 @@
  */
 
 import * as pathToRegexp from 'path-to-regexp'
-import { Server } from 'ws'
+import { WebSocketServer as Server } from 'ws'
 import * as http from 'http'
+
 import { 
   Arg0,
   Arg0Full,
   wsApplication,
-  wsRouteItem,
   wsIncomingMessage,
  } from "./type"
 
@@ -94,4 +94,4 @@ function expressWs (arg0: Arg0) {
   }
 }
 
-export = expressWs
+export default expressWs
