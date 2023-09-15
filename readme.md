@@ -1,5 +1,6 @@
 # bun-express-ws
-Fork of wll8's improved express-ws that utilizes Bun's built-in WebSocket implementation. For more information please see [wll8's readme](https://github.com/wll8/express-ws#readme)
+Fork of wll8's improved express-ws that utilizes Bun's built-in WebSocket implementation. For more information about what's different between wll8's version and the unscoped package please see [wll8's readme](https://github.com/wll8/express-ws#readme).
+
 
 ## Usage
 
