@@ -3,7 +3,7 @@
  * https://github.com/websockets/ws#multiple-servers-sharing-a-single-https-server
  */
 
-import * as pathToRegexp from 'path-to-regexp'
+import pathToRegexp from 'path-to-regexp'
 import { WebSocketServer as Server } from 'ws'
 import * as http from 'http'
 

@@ -1,6 +1,6 @@
 {
   "name": "bun-express-ws",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Quickly implement websocket API in express",
   "main": "src/index.ts",
   "types": "src/index.ts",
